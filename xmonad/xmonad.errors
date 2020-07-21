@@ -1,0 +1,114 @@
+
+xmonad.hs:95:36: error: Variable not in scope: myBrowser :: [Char]
+   |
+95 | myBookmarks = [ ("DistroTube.com", myBrowser ++ "https://www.distrotube.com", "Official website for DistroTube")
+   |                                    ^^^^^^^^^
+
+xmonad.hs:96:33: error: Variable not in scope: myBrowser :: [Char]
+   |
+96 |               , ("DistroWatch", myBrowser ++ "https://www.distrowatch.com", "DistroWatch Release Announcements")
+   |                                 ^^^^^^^^^
+
+xmonad.hs:97:32: error: Variable not in scope: myBrowser :: [Char]
+   |
+97 |               , ("Arch Linux", myBrowser ++ "https://www.archlinux.org/", "Official website for Arch Linux")
+   |                                ^^^^^^^^^
+
+xmonad.hs:98:42: error: Variable not in scope: myBrowser :: [Char]
+   |
+98 |               , ("Arch User Repository", myBrowser ++ "https://aur.archlinux.org/", "The Arch User Repository AUR")
+   |                                          ^^^^^^^^^
+
+xmonad.hs:99:31: error: Variable not in scope: myBrowser :: [Char]
+   |
+99 |               , ("Arch Wiki", myBrowser ++ "https://wiki.archlinux.org/", "The Arch Wiki")
+   |                               ^^^^^^^^^
+
+xmonad.hs:100:26: error: Variable not in scope: myBrowser :: [Char]
+    |
+100 |               , ("LBRY", myBrowser ++ "https://lbry.tv/@DistroTube:2", "DistroTube on LBRY")
+    |                          ^^^^^^^^^
+
+xmonad.hs:101:28: error: Variable not in scope: myBrowser :: [Char]
+    |
+101 |               , ("GitLab", myBrowser ++ "https://gitlab.com/dwt1", "GitLab Page for DistroTube")
+    |                            ^^^^^^^^^
+
+xmonad.hs:102:29: error: Variable not in scope: myBrowser :: [Char]
+    |
+102 |               , ("Patreon", myBrowser ++ "https://www.patreon.com/distrotube", "DT on Patreon")
+    |                             ^^^^^^^^^
+
+xmonad.hs:103:30: error: Variable not in scope: myBrowser :: [Char]
+    |
+103 |               , ("Diaspora", myBrowser ++ "https://diasp.org/stream", "DT on Diaspora")
+    |                              ^^^^^^^^^
+
+xmonad.hs:104:30: error: Variable not in scope: myBrowser :: [Char]
+    |
+104 |               , ("Mastodon", myBrowser ++ "https://mastodon.technology/web/accounts/85897", "DT on Mastodon")
+    |                              ^^^^^^^^^
+
+xmonad.hs:105:28: error: Variable not in scope: myBrowser :: [Char]
+    |
+105 |               , ("Reddit", myBrowser ++ "https://www.reddit.com/r/distrotube/", "r/DistroTube")
+    |                            ^^^^^^^^^
+
+xmonad.hs:106:29: error: Variable not in scope: myBrowser :: [Char]
+    |
+106 |               , ("YouTube", myBrowser ++ "https://www.youtube.com/c/DistroTube?view_as=subscriber", "DT on YouTube")
+    |                             ^^^^^^^^^
+
+xmonad.hs:156:38: error:
+    Variable not in scope: myScratchPads :: NamedScratchpads
+    |
+156 |      ] <+> namedScratchpadManageHook myScratchPads
+    |                                      ^^^^^^^^^^^^^
+
+xmonad.hs:272:32: error:
+    • Variable not in scope: myModMask :: KeyMask
+    • Perhaps you meant one of these:
+        ‘modMask’ (imported from XMonad),
+        ‘noModMask’ (imported from XMonad)
+    |
+272 |         , modMask            = myModMask
+    |                                ^^^^^^^^^
+
+xmonad.hs:273:32: error:
+    • Variable not in scope: myTerminal :: String
+    • Perhaps you meant ‘terminal’ (imported from XMonad)
+    |
+273 |         , terminal           = myTerminal
+    |                                ^^^^^^^^^^
+
+xmonad.hs:277:32: error:
+    • Variable not in scope: myBorderWidth :: Dimension
+    • Perhaps you meant ‘borderWidth’ (imported from XMonad)
+    |
+277 |         , borderWidth        = myBorderWidth
+    |                                ^^^^^^^^^^^^^
+
+xmonad.hs:278:32: error:
+    Variable not in scope: myNormColor :: String
+    |
+278 |         , normalBorderColor  = myNormColor
+    |                                ^^^^^^^^^^^
+
+xmonad.hs:279:32: error:
+    Variable not in scope: myFocusColor :: String
+    |
+279 |         , focusedBorderColor = myFocusColor
+    |                                ^^^^^^^^^^^^
+
+xmonad.hs:289:40: error:
+    • Variable not in scope: windowCount :: X (Maybe String)
+    • Perhaps you meant ‘windowEvent’ (imported from XMonad)
+    |
+289 |                         , ppExtras  = [windowCount]                           -- # of windows current workspace
+    |                                        ^^^^^^^^^^^
+
+xmonad.hs:292:29: error:
+    Variable not in scope: myKeys :: [(String, X ())]
+    |
+292 |         } `additionalKeysP` myKeys
+    |                             ^^^^^^
