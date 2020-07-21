@@ -24,7 +24,7 @@ abbr termconf "micro ~/.config/termite/config"
 abbr alacconf "micro ~/.config/alacritty/alacritty.yml"
 
 # clear screen
-abbr c "clear && figlet byz4ntine | lolcat"
+abbr c "clear && figlet byz4ntine | rainbow"
 abbr x "clear && neofetch"
 abbr z "clear && aura"
 
