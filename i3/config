@@ -19,6 +19,8 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ to
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
 # Start-up Services
+exec systemctl enable --user dunst.service
+exec --no-startup-id dunst
 exec systemctl enable AdGuardHome.service
 exec blueman-applet
 exec --no-startup-id xfce4-power-manager
@@ -85,6 +87,12 @@ set $myBrowser qutebrowser
 bindsym $mod+w exec $myBrowser
 bindsym $mod+Shift+m exec $myBrowser https://www.openstreetmap.org
 bindsym $mod+Shift+y exec $myBrowser https://www.youtube.com/
+
+# set myMail
+set $myMail claws-mail
+
+# Mail
+bindsym $mod+Shift+c exec $myMail
 
 # take a screenshot
 bindsym $mod+Shift+o exec i3-scrot
