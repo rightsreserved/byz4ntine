@@ -43,7 +43,7 @@ bindsym $mod+i border pixel 2
 bindsym $mod+o border normal
 
 # class                   border  backgr. text    indic.   child_border
-  client.focused          #726F9D #726F9D #FFF0C0 #726F9D
+  client.focused          #F7FF7E #F7FF7E #262626 #F7FF7E
   client.focused_inactive #2F3D44 #2F3D44 #AD69AF #454948
   client.unfocused        #2F3D44 #2F3D44 #AD69AF #454948
   client.urgent           #CB4B16 #FDF6E3 #AD69AF #268BD2
@@ -62,7 +62,7 @@ bar {
         separator #666666
         background #262626
         statusline #dddddd
-        focused_workspace #726F9D #726F9D #262626
+        focused_workspace #F7FF7E #F7FF7E #262626
         active_workspace #262626 #262626 #ffffff
         inactive_workspace #262626 #262626 #f1f1f1
         urgent_workspace #2f343a #900000 #ffffff
