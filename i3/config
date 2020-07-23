@@ -62,10 +62,10 @@ bar {
         separator #666666
         background #262626
         statusline #dddddd
-        focused_workspace #F7FF7E #F7FF7E #262626
-        active_workspace #262626 #262626 #ffffff
-        inactive_workspace #262626 #262626 #f1f1f1
-        urgent_workspace #2f343a #900000 #ffffff
+        focused_workspace #262626 #262626 #ffffff
+        active_workspace #262626 #262626 #606060
+        inactive_workspace #262626 #262626 #606060
+        urgent_workspace #F7FF7E #F7FF7E #606060
     }
 }
 
@@ -87,6 +87,7 @@ set $myBrowser qutebrowser
 bindsym $mod+w exec $myBrowser
 bindsym $mod+Shift+m exec $myBrowser https://www.openstreetmap.org
 bindsym $mod+Shift+y exec $myBrowser https://www.youtube.com/
+bindsym $mod+Shift+g exec $myBrowser https://github.com/rightsreserved/byz4ntine
 
 # set myMail
 set $myMail claws-mail
