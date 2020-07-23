@@ -24,8 +24,8 @@ background          = #262626
 foreground 	        = #FFF0C0
 highlight  	        = #2f2f2f
 foreground_bold     = #FFF6C6
-cursor              = #726F9D
-cursor_foreground   = #726F9D
+cursor              = #F7FF7E
+cursor_foreground   = #F7FF7E
 
 # 16 color space
 
