@@ -43,7 +43,7 @@ bindsym $mod+i border pixel 2
 bindsym $mod+o border normal
 
 # class                   border  backgr. text    indic.   child_border
-  client.focused          #F7FF7E #F7FF7E #262626 #F7FF7E
+  client.focused          #FB4D4F #FB4D4F #262626 #FB4D4F
   client.focused_inactive #2F3D44 #2F3D44 #AD69AF #454948
   client.unfocused        #2F3D44 #2F3D44 #AD69AF #454948
   client.urgent           #CB4B16 #FDF6E3 #AD69AF #268BD2
@@ -65,7 +65,7 @@ bar {
         focused_workspace #262626 #262626 #ffffff
         active_workspace #262626 #262626 #606060
         inactive_workspace #262626 #262626 #606060
-        urgent_workspace #F7FF7E #F7FF7E #606060
+        urgent_workspace #FB4D4F #FB4D4F #606060
     }
 }
 
@@ -111,7 +111,7 @@ bindsym $mod+m exec mousepad
 bindsym $mod+Shift+q kill
 
 # start dmenu
-bindsym $mod+d exec "dmenu_run -nf '#FFF6C6' -nb '#262626' -sb '#726F9D' -sf '#FFF6C6' -fn 'monofur-12' -p 'dmenu%'"
+bindsym $mod+d exec "dmenu_run -nf '#606060' -nb '#262626' -sb '#262626' -sf '#FFFFFF' -fn 'monofur-12' -p 'dmenu%'"
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
