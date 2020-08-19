@@ -19,6 +19,7 @@ abbr key "doas pacman-key --refresh-keys"
 
 # config
 abbr config "micro ~/.config/i3/config"
+abbr polyconf "micro ~/.config/polybar/config"
 abbr fishconf "micro ~/.config/fish/config.fish"
 abbr doasconf "doas nano /etc/doas.conf"
 abbr termconf "micro ~/.config/termite/config"
