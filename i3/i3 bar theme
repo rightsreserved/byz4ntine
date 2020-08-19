@@ -1,0 +1,15 @@
+bar {
+  status_command i3status
+  position top
+  height 20
+  font pango:Hermit 12
+  colors {
+  	separator #666666
+  	background #262626
+  	statusline #dddddd
+  	focused_workspace #262626 #262626 #ffffff
+  	active_workspace #262626 #262626 #606060
+  	inactive_workspace #262626 #262626 #606060
+  	urgent_workspace #fb4d4f #fb4d4f #606060
+  }
+}
