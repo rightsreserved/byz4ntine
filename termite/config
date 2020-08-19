@@ -5,7 +5,7 @@ allow_bold = true
 audible_bell = true
 bold_is_bright = true
 clickable_url = true
-font = Monofur 15
+font = Hermit 12
 scrollback_lines = 100000
 
 # "system", "on" or "off"
@@ -24,8 +24,8 @@ background          = #262626
 foreground 	        = #FFF0C0
 highlight  	        = #2f2f2f
 foreground_bold     = #FFF6C6
-cursor              = #F7FF7E
-cursor_foreground   = #F7FF7E
+cursor              = #FB4D4F
+cursor_foreground   = #FB4D4F
 
 # 16 color space
 
