@@ -4,12 +4,14 @@ SETUVAR THEME_EDEN_PROMPT_CHAR:\u00bb
 SETUVAR __fish_classic_git_prompt_initialized:\x1d
 SETUVAR __fish_initialized:3100
 SETUVAR _fish_abbr_alacconf:micro\x20\x7e/\x2econfig/alacritty/alacritty\x2eyml
-SETUVAR _fish_abbr_c:clear\x20\x26\x26\x20figlet\x20byz4ntine\x20\x7c\x20lolcat
+SETUVAR _fish_abbr_c:clear\x20\x26\x26\x20figlet\x20byz4ntine\x20\x7c\x20rainbow
 SETUVAR _fish_abbr_config:micro\x20\x7e/\x2econfig/i3/config
 SETUVAR _fish_abbr_d:doas
 SETUVAR _fish_abbr_doasconf:doas\x20nano\x20/etc/doas\x2econf
+SETUVAR _fish_abbr_dunstconf:micro\x20\x7e/\x2econfig/dunst/dunstrc
 SETUVAR _fish_abbr_fishconf:micro\x20\x7e/\x2econfig/fish/config\x2efish
 SETUVAR _fish_abbr_install:yay\x20\x2dS
+SETUVAR _fish_abbr_key:doas\x20pacman\x2dkey\x20\x2d\x2drefresh\x2dkeys
 SETUVAR _fish_abbr_n:joshuto
 SETUVAR _fish_abbr_nano:nano
 SETUVAR _fish_abbr_p:pacman
