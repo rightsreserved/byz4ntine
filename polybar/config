@@ -30,9 +30,9 @@ alert = #bd2c40
 [bar/i3bar]
 ;monitor = ${env:MONITOR:HDMI-1}
 width = 100%
-height = 20
-;offset-x = 0%
-;offset-y = 0%
+height = 22
+;offset-x = 1%
+;offset-y = 1%
 radius = 0.0
 fixed-center = true
 
@@ -51,7 +51,7 @@ padding-right = 2
 module-margin-left = 1
 module-margin-right = 0
 
-font-0 = Hermit:pixelsize=10;1
+font-0 = Monoid:pixelsize=9;1
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
 font-2 = siji:pixelsize=10;1
 
