@@ -22,7 +22,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 exec systemctl enable --user dunst.service
 exec --no-startup-id dunst
 exec systemctl enable AdGuardHome.service
-exec blueman-applet
+exec --no-startup-id blueman-applet
 exec --no-startup-id xfce4-power-manager
 exec --no-startup-id compton
 exec --no-startup-id nitrogen --restore
@@ -30,10 +30,9 @@ exec --no-startup-id /usr/bin/compton --backend glx --paint-on-overlay --vsync o
 
 # Appearance
 
-font xft:Xenippa 10
-gaps inner 12
+font xft:Hermit 9
+gaps inner 9
 gaps outer 0
-smart_gaps on
 smart_borders on
 new_window pixel 2
 new_float normal
@@ -52,22 +51,7 @@ bindsym $mod+o border normal
   client.background       #2B2C2B
 
 # Status Bar
-
-bar {
-	status_command i3status
-	position top
-	height 20
-	font pango:Monofur 15
-	colors {
-        separator #666666
-        background #262626
-        statusline #dddddd
-        focused_workspace #262626 #262626 #ffffff
-        active_workspace #262626 #262626 #606060
-        inactive_workspace #262626 #262626 #606060
-        urgent_workspace #FB4D4F #FB4D4F #606060
-    }
-}
+exec_always --no-startup-id ~/.config/polybar/launch.sh
 
 # set MyTerm
 set $myTerm termite
@@ -79,6 +63,7 @@ bindsym $mod+Return exec $myTerm
 bindsym $mod+n exec $myTerm -e 'hunter'
 bindsym $mod+Shift+n exec $myTerm -e 'hunter -h'
 bindsym $mod+Shift+h exec $myTerm -e 'ytop'
+bindsym $mod+b exec $myTerm -e 'bashtop'
 
 # set myBrowser
 set $myBrowser qutebrowser
@@ -111,7 +96,7 @@ bindsym $mod+m exec mousepad
 bindsym $mod+Shift+q kill
 
 # start dmenu
-bindsym $mod+d exec "dmenu_run -nf '#606060' -nb '#262626' -sb '#262626' -sf '#FFFFFF' -fn 'monofur-12' -p 'dmenu%'"
+bindsym $mod+d exec "dmenu_run -nf '#606060' -nb '#262626' -sb '#262626' -sf '#FFFFFF' -fn 'hermit-11' -p 'dmenu%'"
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
