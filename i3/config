@@ -2,7 +2,7 @@
 
 set $mod Mod4
 
-font pango:monofur 8
+font pango:monoid 8
 
 # xss-lock
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
@@ -30,7 +30,7 @@ exec --no-startup-id /usr/bin/compton --backend glx --paint-on-overlay --vsync o
 
 # Appearance
 
-font xft:Hermit 9
+font xft:Monoid 9
 gaps inner 9
 gaps outer 0
 smart_borders on
@@ -96,7 +96,7 @@ bindsym $mod+m exec mousepad
 bindsym $mod+Shift+q kill
 
 # start dmenu
-bindsym $mod+d exec "dmenu_run -nf '#606060' -nb '#262626' -sb '#262626' -sf '#FFFFFF' -fn 'hermit-11' -p 'dmenu%'"
+bindsym $mod+d exec "dmenu_run -nf '#606060' -nb '#262626' -sb '#262626' -sf '#FFFFFF' -fn 'monoid-11' -p 'dmenu%'"
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
