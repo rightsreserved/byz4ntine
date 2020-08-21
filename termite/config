@@ -6,6 +6,7 @@ audible_bell = true
 bold_is_bright = true
 clickable_url = true
 font = Monoid 12
+
 scrollback_lines = 100000
 
 # "system", "on" or "off"
@@ -32,8 +33,8 @@ cursor_foreground   = #FB4D4F
 # Black, Gray, Silver, White
 color0  	        = #181818
 color8              = #787878
-color7              = #FFFFA4
-color15             = #FFFFD3
+color7              = #E5D8AC
+color15             = #FFF0C0
 
 # Red
 color1              = #FB987F
