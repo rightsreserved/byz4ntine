@@ -8,20 +8,19 @@ function fish_mode_prompt
 end
 
 # shortcuts
-abbr d "doas"
 abbr p "pacman"
-abbr pp "doas pacman"
-abbr upd "doas pacman -Sy"
-abbr upg "doas pacman -Syu"
+abbr pp "sudo pacman"
+abbr upd "sudo pacman -Sy"
+abbr upg "sudo pacman -Syu"
+abbr install "sudo pacman -Sy && sudo pacman -S"
 abbr search "trizen -Ss"
 abbr spotify "flatpak run com.spotify.Client"
-abbr key "doas pacman-key --refresh-keys"
+abbr key "sudo pacman-key --refresh-keys"
 
 # config
 abbr config "micro ~/.config/i3/config"
 abbr polyconf "micro ~/.config/polybar/config"
 abbr fishconf "micro ~/.config/fish/config.fish"
-abbr doasconf "doas nano /etc/doas.conf"
 abbr termconf "micro ~/.config/termite/config"
 abbr alacconf "micro ~/.config/alacritty/alacritty.yml"
 abbr dunstconf "micro ~/.config/dunst/dunstrc"
