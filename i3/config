@@ -24,9 +24,9 @@ exec --no-startup-id dunst
 exec systemctl enable AdGuardHome.service
 exec --no-startup-id blueman-applet
 exec --no-startup-id xfce4-power-manager
-exec --no-startup-id compton
+exec --no-startup-id picom
 exec --no-startup-id nitrogen --restore
-exec --no-startup-id /usr/bin/compton --backend glx --paint-on-overlay --vsync opengl-swc
+exec --no-startup-id /usr/bin/picom --backend glx --paint-on-overlay --vsync opengl-swc
 
 # Appearance
 
