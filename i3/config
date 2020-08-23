@@ -42,7 +42,7 @@ bindsym $mod+i border pixel 2
 bindsym $mod+o border normal
 
 # class                   border  backgr. text    indic.   child_border
-  client.focused          #FB4D4F #FB4D4F #262626 #FB4D4F
+  client.focused          #9D5C63 #9D5C63 #262626 #9D5C63
   client.focused_inactive #2F3D44 #2F3D44 #AD69AF #454948
   client.unfocused        #2F3D44 #2F3D44 #AD69AF #454948
   client.urgent           #CB4B16 #FDF6E3 #AD69AF #268BD2
@@ -96,7 +96,7 @@ bindsym $mod+m exec mousepad
 bindsym $mod+Shift+q kill
 
 # start dmenu
-bindsym $mod+d exec "dmenu_run -nf '#606060' -nb '#262626' -sb '#262626' -sf '#FFFFFF' -fn 'monoid-11' -p 'dmenu%'"
+bindsym $mod+d exec "dmenu_run -nf '#606060' -nb '#262626' -sb '#262626' -sf '#FFFFFF' -fn 'monoid-10' -p 'dmenu%'"
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -189,7 +189,7 @@ bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+r restart
 
 # bye
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'bye' -B '☭' 'i3-msg exit'"
+bindsym $mod+Shift+e exec arcolinux-logout
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
