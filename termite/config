@@ -10,10 +10,10 @@ font = Monoid 12
 scrollback_lines = 100000
 
 # "system", "on" or "off"
-cursor_blink = off
+cursor_blink = on
 
 # "block", "underline" or "ibeam"
-cursor_shape = ibeam
+cursor_shape = underline
 
 [colors]
 # byz4ntine
@@ -22,43 +22,43 @@ cursor_shape = ibeam
 # Text and Background Colour
 
 background          = #262626
-foreground 	        = #FFF0C0
+foreground 	        = #F1E8E9
 highlight  	        = #2f2f2f
-foreground_bold     = #FFF6C6
-cursor              = #FB4D4F
-cursor_foreground   = #FB4D4F
+foreground_bold     = #F8F3F4
+cursor              = #9D5C63
+cursor_foreground   = #9D5C63
 
 # 16 color space
 
 # Black, Gray, Silver, White
 color0  	        = #181818
 color8              = #787878
-color7              = #E5D8AC
-color15             = #FFF0C0
+color7              = #7D7D7D
+color15             = #F1E8E9
 
 # Red
-color1              = #FB987F
-color9              = #FB987F
+color1              = #9D5C63
+color9              = #9D5C63
 
 # Green
-color2              = #6EAB46
-color10             = #6EAB46
+color2              = #90B494
+color10             = #90B494
 
 # Yellow
-color3              = #F7FF7E
-color11             = #F7FF7E
+color3              = #ECCFC3
+color11             = #ECCFC3
 
 # Blue
-color4              = #4FCCB6
-color12             = #4FCCB6
+color4              = #809BCE
+color12             = #809BCE
 
 # Purple
-color5              = #E56599
-color13             = #E56599
+color5              = #DEC5E3
+color13             = #DEC5E3
 
 # Teal
-color6              = #726F9D
-color14             = #726F9D
+color6              = #039CB3
+color14             = #039CB3
 
 # Extra colors
 color16             = #C7C795
@@ -68,4 +68,4 @@ color19             = #565E65
 color20             = #ADB3BA
 color21             = #DFE2E5
 
-# vim: ft=dosini cms=#%s
+vim: ft=dosini cms=#%s
