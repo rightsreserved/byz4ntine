@@ -14,7 +14,6 @@ abbr upd "sudo pacman -Sy"
 abbr upg "sudo pacman -Syu"
 abbr install "sudo pacman -Sy && sudo pacman -S"
 abbr search "trizen -Ss"
-abbr spotify "flatpak run com.spotify.Client"
 abbr key "sudo pacman-key --refresh-keys"
 
 # config
@@ -26,9 +25,12 @@ abbr alacconf "micro ~/.config/alacritty/alacritty.yml"
 abbr dunstconf "micro ~/.config/dunst/dunstrc"
 
 # clear screen
-abbr c "clear && figlet byz4ntine | rainbow"
+abbr c "clear && fish_logo"
+abbr d "clear && pfetch"
+abbr f "clear && figlet byz4ntine | rainbow"
+abbr s "clear && screenfetch"
 abbr x "clear && neofetch"
 abbr z "clear && aura"
 
 # start up theming
-figlet byz4ntine | rainbow
+fish_logo
