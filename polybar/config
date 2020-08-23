@@ -41,7 +41,7 @@ format-offset =
 [colors]
 ; Nord theme ============
 background = #262626
-foreground = #fff0c0
+foreground = #f1e8e9
 alert = #d08770
 volume-min = #a3be8c
 volume-med = #ebcb8b
@@ -118,9 +118,9 @@ font-1 = "FontAwesome:size=10;0"
 font-2 = "Monoid:size=10;0"
 font-3 = "Monoid:size=10;0"
 
-modules-left = i3 xwindow
-modules-center = kernel
-modules-right = memory2 cpu2 pavolume battery date
+modules-left = cpu2 memory2 xwindow
+modules-center = i3
+modules-right = pavolume battery date
 
 separator = /
 
