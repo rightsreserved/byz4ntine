@@ -21,20 +21,20 @@ cursor_shape = underline
 
 # Text and Background Colour
 
-background          = #262626
-foreground 	        = #F1E8E9
+background          = #1C212C
+foreground 	        = #D1DBED
 highlight  	        = #2f2f2f
-foreground_bold     = #F8F3F4
+foreground_bold     = #E3E9F4
 cursor              = #9D5C63
 cursor_foreground   = #9D5C63
 
 # 16 color space
 
 # Black, Gray, Silver, White
-color0  	        = #181818
-color8              = #787878
-color7              = #7D7D7D
-color15             = #F1E8E9
+color0  	        = #1F2229
+color8              = #485060
+color7              = #95A1B7
+color15             = #D1DBED
 
 # Red
 color1              = #9D5C63
@@ -57,8 +57,8 @@ color5              = #C08497
 color13             = #C08497
 
 # Teal
-color6              = #2F7C88
-color14             = #2F7C88
+color6              = #5C9D97
+color14             = #5C9D97
 
 # Extra colors
 color16             = #C7C795
@@ -68,4 +68,4 @@ color19             = #565E65
 color20             = #ADB3BA
 color21             = #DFE2E5
 
-vim: ft=dosini cms=#%s
+# vim: ft=dosini cms=#%s
