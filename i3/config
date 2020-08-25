@@ -31,9 +31,8 @@ exec --no-startup-id /usr/bin/picom --backend glx --paint-on-overlay --vsync ope
 # Appearance
 
 font xft:Monoid 9
-gaps inner 9
+gaps inner 18
 gaps outer 0
-smart_borders on
 new_window pixel 2
 new_float normal
 hide_edge_borders none
@@ -42,10 +41,10 @@ bindsym $mod+i border pixel 2
 bindsym $mod+o border normal
 
 # class                   border  backgr. text    indic.   child_border
-  client.focused          #9D5C63 #9D5C63 #262626 #9D5C63
-  client.focused_inactive #2F3D44 #2F3D44 #AD69AF #454948
-  client.unfocused        #2F3D44 #2F3D44 #AD69AF #454948
-  client.urgent           #CB4B16 #FDF6E3 #AD69AF #268BD2
+  client.focused          #809BCE #809BCE #1C212C #809BCE
+  client.focused_inactive #414C65 #414C65 #D1DBED #414C65
+  client.unfocused        #414C65 #414C65 #D1DBED #414C65
+  client.urgent           #CB4B16 #FDF6E3 #D1DBED #268BD2
   client.placeholder      #000000 #0c0c0c #ffffff #000000 
 
   client.background       #2B2C2B
