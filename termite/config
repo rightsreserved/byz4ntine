@@ -25,8 +25,8 @@ background          = #1C212C
 foreground 	        = #D1DBED
 highlight  	        = #2f2f2f
 foreground_bold     = #E3E9F4
-cursor              = #9D5C63
-cursor_foreground   = #9D5C63
+cursor              = #809BCE
+cursor_foreground   = #809BCE
 
 # 16 color space
 
@@ -41,8 +41,8 @@ color1              = #9D5C63
 color9              = #9D5C63
 
 # Green
-color2              = #90B494
-color10             = #90B494
+color2              = #94A187
+color10             = #94A187
 
 # Yellow
 color3              = #ECCFC3
@@ -53,12 +53,12 @@ color4              = #809BCE
 color12             = #809BCE
 
 # Purple
-color5              = #C08497
-color13             = #C08497
+color5              = #7a6f9b
+color13             = #7a6f9b
 
 # Teal
-color6              = #5C9D97
-color14             = #5C9D97
+color6              = #6F9B90
+color14             = #6F9B90
 
 # Extra colors
 color16             = #C7C795
