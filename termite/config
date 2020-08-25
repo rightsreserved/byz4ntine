@@ -5,7 +5,7 @@ allow_bold = true
 audible_bell = true
 bold_is_bright = true
 clickable_url = true
-font = Monoid 12
+font = Hermit 12
 
 scrollback_lines = 100000
 
@@ -31,22 +31,22 @@ cursor_foreground   = #809BCE
 # 16 color space
 
 # Black, Gray, Silver, White
-color0  	        = #1F2229
-color8              = #485060
-color7              = #95A1B7
-color15             = #D1DBED
+color0  	        = #343E52
+color8              = #343E52
+color7              = #B8C8E4
+color15             = #B8C8E4
 
 # Red
-color1              = #9D5C63
-color9              = #9D5C63
+color1              = #815e5b
+color9              = #815e5b
 
 # Green
 color2              = #94A187
 color10             = #94A187
 
 # Yellow
-color3              = #ECCFC3
-color11             = #ECCFC3
+color3              = #eccfc3
+color11             = #eccfc3
 
 # Blue
 color4              = #809BCE
@@ -57,8 +57,8 @@ color5              = #7a6f9b
 color13             = #7a6f9b
 
 # Teal
-color6              = #6F9B90
-color14             = #6F9B90
+color6              = #4a7b9d
+color14             = #4a7b9d
 
 # Extra colors
 color16             = #C7C795
