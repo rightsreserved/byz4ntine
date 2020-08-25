@@ -10,10 +10,10 @@ end
 # shortcuts
 abbr p "pacman"
 abbr pp "sudo pacman"
-abbr upd "sudo pacman -Sy"
-abbr upg "sudo pacman -Syu"
-abbr install "sudo pacman -Sy && sudo pacman -S"
-abbr search "trizen -Ss"
+abbr ud "sudo pacman -Sy"
+abbr ug "sudo pacman -Syu"
+abbr i "sudo pacman -Sy && sudo pacman -S"
+abbr sc "trizen -Ss"
 abbr key "sudo pacman-key --refresh-keys"
 
 # config
@@ -25,12 +25,13 @@ abbr alacconf "micro ~/.config/alacritty/alacritty.yml"
 abbr dunstconf "micro ~/.config/dunst/dunstrc"
 
 # clear screen
-abbr c "clear && fish_logo"
-abbr d "clear && pfetch"
+abbr a "clear && pfetch"
+abbr c "clear && fet.sh"
+abbr d "clear && fish_logo"
 abbr f "clear && figlet byz4ntine | rainbow"
 abbr s "clear && screenfetch"
 abbr x "clear && neofetch"
 abbr z "clear && aura"
 
 # start up theming
-fish_logo
+fet.sh
