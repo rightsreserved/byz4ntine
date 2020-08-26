@@ -9,57 +9,40 @@ font = Hermit 12
 
 scrollback_lines = 100000
 
-# "system", "on" or "off"
 cursor_blink = on
 
-# "block", "underline" or "ibeam"
 cursor_shape = underline
 
 [colors]
-# byz4ntine
-# Author: byz4ntine
-
-# Text and Background Colour
-
-background          = #1C212C
+background          = #282F3F
 foreground 	        = #D1DBED
 highlight  	        = #2f2f2f
 foreground_bold     = #E3E9F4
 cursor              = #809BCE
 cursor_foreground   = #809BCE
-
-# 16 color space
-
 # Black, Gray, Silver, White
-color0  	        = #343E52
-color8              = #343E52
+color0  	        = #3F4962
+color8              = #3F4962
 color7              = #B8C8E4
 color15             = #B8C8E4
-
 # Red
 color1              = #815e5b
 color9              = #815e5b
-
 # Green
 color2              = #94A187
 color10             = #94A187
-
 # Yellow
 color3              = #eccfc3
 color11             = #eccfc3
-
 # Blue
 color4              = #809BCE
 color12             = #809BCE
-
 # Purple
 color5              = #7a6f9b
 color13             = #7a6f9b
-
 # Teal
-color6              = #4a7b9d
-color14             = #4a7b9d
-
+color6              = #5B7180
+color14             = #5B7180
 # Extra colors
 color16             = #C7C795
 color17             = #C79595
