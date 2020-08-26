@@ -18,28 +18,28 @@
 
   colors:
     primary:
-      background: '#1c212c'
+      background: '#282F3F'
       foreground: '#D1DBED'   
     cursor:
       text: '#809BCE'
       cursor: '#809BCE'
     normal:
-      black:   '#343E52'
+      black:   '#3F4962'
       red:     '#815e5b'
       green:   '#94A187'
       yellow:  '#eccfc3'
       blue:    '#809BCE'
       magenta: '#7a6f9b'
-      cyan:    '#4a7b9d'
+      cyan:    '#5B7180'
       white:   '#B8C8E4'
     bright:
-      black:   '#343E52'
+      black:   '#3F4962'
       red:     '#815e5b'
       green:   '#94A187'
       yellow:  '#eccfc3'
       blue:    '#809BCE'
       magenta: '#7a6f9b'
-      cyan:    '#4a7b9d'
+      cyan:    '#5B7180'
       white:   '#B8C8E4'
 
   background_opacity: 1.0
