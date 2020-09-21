@@ -2,7 +2,7 @@
 
 set $mod Mod4
 
-font pango:monoid 8
+font pango:spleen 32x64 10
 
 # xss-lock
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
@@ -19,19 +19,18 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ to
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
 # Start-up Services
-exec systemctl enable --user dunst.service
-exec --no-startup-id dunst
-exec systemctl enable AdGuardHome.service
-exec --no-startup-id blueman-applet
-exec --no-startup-id xfce4-power-manager
-exec --no-startup-id picom
-exec --no-startup-id nitrogen --restore
-exec --no-startup-id /usr/bin/picom --backend glx --paint-on-overlay --vsync opengl-swc
+exec_always systemctl enable --user dunst.service
+exec_always --no-startup-id dunst
+exec_always systemctl enable AdGuardHome.service
+exec_always --no-startup-id blueman-applet
+exec_always --no-startup-id xfce4-power-manager
+exec_always --no-startup-id picom --config ~/.config/picom/picom.conf
+exec_always --no-startup-id nitrogen --restore
 
 # Appearance
 
-font xft:Monoid 9
-gaps inner 18
+font xft:Space Age 11
+gaps inner 17
 gaps outer 0
 new_window pixel 2
 new_float normal
@@ -59,8 +58,8 @@ set $myTerm termite
 bindsym $mod+Return exec $myTerm
 
 # terminal shortcuts
-bindsym $mod+n exec $myTerm -e 'hunter'
-bindsym $mod+Shift+n exec $myTerm -e 'hunter -h'
+bindsym $mod+n exec $myTerm -e 'ranger'
+bindsym $mod+Shift+n exec $myTerm -e 'ranger -h'
 bindsym $mod+Shift+h exec $myTerm -e 'ytop'
 bindsym $mod+b exec $myTerm -e 'bashtop'
 
@@ -95,7 +94,7 @@ bindsym $mod+m exec mousepad
 bindsym $mod+Shift+q kill
 
 # start dmenu
-bindsym $mod+d exec "dmenu_run -nf '#606060' -nb '#262626' -sb '#262626' -sf '#FFFFFF' -fn 'monoid-10' -p 'dmenu%'"
+bindsym $mod+d exec "dmenu_run -nf '#4A5674' -nb '#282F3F' -sb '#282F3F' -sf '#D1DBED' -fn 'spleen 32x64-14' -p 'dmenu%'"
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
