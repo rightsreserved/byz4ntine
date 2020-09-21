@@ -5,7 +5,7 @@ allow_bold = true
 audible_bell = true
 bold_is_bright = true
 clickable_url = true
-font = GT40 Mono 12.5
+font = Spleen 32x64 15
 
 scrollback_lines = 100000
 
