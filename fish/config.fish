@@ -10,24 +10,26 @@ end
 # shortcuts
 abbr p "pacman"
 abbr pp "sudo pacman"
-abbr ud "sudo pacman -Sy"
-abbr ug "sudo pacman -Syu"
+abbr upd "sudo pacman -Sy"
+abbr upg "sudo pacman -Syu"
 abbr i "sudo pacman -Sy && sudo pacman -S"
 abbr sc "trizen -Ss"
 abbr key "sudo pacman-key --refresh-keys"
 
 # config
 abbr config "micro ~/.config/i3/config"
+abbr piconf "micro ~/.config/picom/picom.conf"
 abbr polyconf "micro ~/.config/polybar/config"
 abbr fishconf "micro ~/.config/fish/config.fish"
 abbr termconf "micro ~/.config/termite/config"
+abbr miniconf "micro ~/.config/miniterm/miniterm.conf"
 abbr alacconf "micro ~/.config/alacritty/alacritty.yml"
 abbr dunstconf "micro ~/.config/dunst/dunstrc"
 
 # clear screen
 abbr a "clear && pfetch"
 abbr c "clear && fet.sh"
-abbr d "clear && fish_logo"
+abbr d "clear && cpufetch"
 abbr f "clear && figlet byz4ntine | rainbow"
 abbr s "clear && screenfetch"
 abbr x "clear && neofetch"
