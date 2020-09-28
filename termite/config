@@ -26,17 +26,17 @@ color8              = #3F4962
 color7              = #B8C8E4
 color15             = #B8C8E4
 # Red
-color1              = #815e5b
-color9              = #815e5b
+color1              = #9d5c63
+color9              = #9d5c63
 # Green
-color2              = #94A187
-color10             = #94A187
+color2              = #9DA187
+color10             = #9DA187
 # Yellow
-color3              = #eccfc3
-color11             = #eccfc3
+color3              = #eabda8
+color11             = #eabda8
 # Blue
-color4              = #809BCE
-color12             = #809BCE
+color4              = #7ea1b0
+color12             = #7ea1b0
 # Purple
 color5              = #7a6f9b
 color13             = #7a6f9b
