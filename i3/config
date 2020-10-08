@@ -40,7 +40,7 @@ bindsym $mod+i border pixel 2
 bindsym $mod+o border normal
 
 # class                   border  backgr. text    indic.   child_border
-  client.focused          #809BCE #809BCE #1C212C #809BCE
+  client.focused          #8CB3C4 #8CB3C4 #1C212C #8CB3C4
   client.focused_inactive #414C65 #414C65 #D1DBED #414C65
   client.unfocused        #414C65 #414C65 #D1DBED #414C65
   client.urgent           #CB4B16 #FDF6E3 #D1DBED #268BD2
@@ -54,8 +54,14 @@ exec_always --no-startup-id ~/.config/polybar/launch.sh
 # set MyTerm
 set $myTerm termite
 
+# set AltTerm
+set $altTerm miniterm
+set $altTerm2 alacritty
+
 # start a terminal
 bindsym $mod+Return exec $myTerm
+bindsym $mod+Shift+Return exec $altTerm
+bindsym $mod+Ctrl+Return exec $altTerm2
 
 # terminal shortcuts
 bindsym $mod+n exec $myTerm -e 'ranger'
