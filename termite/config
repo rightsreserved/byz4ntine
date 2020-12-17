@@ -14,36 +14,36 @@ cursor_blink = on
 cursor_shape = underline
 
 [colors]
-# background          = #282C40
-background          = rgba(40, 44, 64, 0.95)
-foreground 	        = #eacad0
+# background          = #2C273A
+background          = rgba(44, 39, 64, 0.92)
+foreground 	        = #E9B9C3
 highlight  	        = #2f2f2f
-foreground_bold     = #eacad0
-cursor              = #809BCE
-cursor_foreground   = #809BCE
+foreground_bold     = #E9B9C3
+cursor              = #C67080
+cursor_foreground   = #C67080
 # Black, Gray, Silver, White
-color0  	        = #4F4762
-color8              = #4F4762
-color7              = #eccfc3
-color15             = #eccfc3
+color0  	        = #605167
+color8              = #605167
+color7              = #F0CDD4
+color15             = #F0CDD4
 # Red
-color1              = #655A7C
-color9              = #655A7C
+color1              = #C67080
+color9              = #C67080
 # Green
-color2              = #AB92BF
-color10             = #AB92BF
+color2              = #D89CA7
+color10             = #D89CA7
 # Yellow
-color3              = #AFC1D6
-color11             = #AFC1D6
+color3              = #B78AA4
+color11             = #B78AA4
 # Blue
-color4              = #CEF9F2
-color12             = #CEF9F2
+color4              = #B4B0D6
+color12             = #B4B0D6
 # Purple
-color5              = #D6CA98
-color13             = #D6CA98
+color5              = #9391BF
+color13             = #9391BF
 # Teal
-color6              = #E5E8B6
-color14             = #E5E8B6
+color6              = #7C779B
+color14             = #7C779B
 # Extra colors
 color16             = #C7C795
 color17             = #C79595
