@@ -18,6 +18,7 @@ abbr key "sudo pacman-key --refresh-keys"
 
 # config
 abbr config "micro ~/.config/i3/config"
+abbr swayconf "micro ~/.config/sway/config"
 abbr piconf "micro ~/.config/picom/picom.conf"
 abbr polyconf "micro ~/.config/polybar/config"
 abbr fishconf "micro ~/.config/fish/config.fish"
@@ -25,6 +26,7 @@ abbr termconf "micro ~/.config/termite/config"
 abbr miniconf "micro ~/.config/miniterm/miniterm.conf"
 abbr alacconf "micro ~/.config/alacritty/alacritty.yml"
 abbr dunstconf "micro ~/.config/dunst/dunstrc"
+abbr promptconf "micro ~/.config/starship.toml"
 
 # clear screen
 abbr a "clear && pfetch"
@@ -37,3 +39,7 @@ abbr z "clear && aura"
 
 # start up theming
 fet.sh
+
+# prompt
+
+starship init fish | source
