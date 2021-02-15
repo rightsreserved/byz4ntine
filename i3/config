@@ -2,7 +2,7 @@
 
 set $mod Mod4
 
-font pango:spleen 32x64 10
+font pango:fantasque sans mono 10
 
 # xss-lock
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
@@ -24,7 +24,7 @@ exec_always --no-startup-id dunst
 exec_always systemctl enable AdGuardHome.service
 exec_always --no-startup-id blueman-applet
 exec_always --no-startup-id xfce4-power-manager
-exec_always --no-startup-id picom --config ~/.config/picom/picom.conf
+exec_always --no-startup-id picom --experimental-backends --config ~/.config/picom/picom.conf
 exec_always --no-startup-id nitrogen --restore
 
 # Appearance
@@ -100,7 +100,10 @@ bindsym $mod+m exec mousepad
 bindsym $mod+Shift+q kill
 
 # start dmenu
-bindsym $mod+d exec "dmenu_run -nf '#4A5674' -nb '#282F3F' -sb '#282F3F' -sf '#D1DBED' -fn 'spleen 32x64-14' -p 'dmenu%'"
+bindsym $mod+d exec "dmenu_run -nf '#4A5674' -nb '#282F3F' -sb '#282F3F' -sf '#D1DBED' -fn 'fantasque sans mono-14' -p 'dmenu%'"
+
+# start rofi
+bindsym $mod+Shift+d exec rofi -show run
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
