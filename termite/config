@@ -1,11 +1,13 @@
-# byz4ntine termite config
+# elsatarian termite config
 
 [options]
 allow_bold = true
 audible_bell = true
 bold_is_bright = true
 clickable_url = true
-font = Fantasque Sans Mono 14
+# font size is set for a 4K screen
+font = Lotion 20
+fullscreen = true
 
 scrollback_lines = 100000
 
@@ -14,36 +16,36 @@ cursor_blink = on
 cursor_shape = underline
 
 [colors]
-# background          = #243044
-background          = rgba(39, 52, 74, 0.92)
-foreground 	        = #E9B9C3
+# background          = #292F36
+background          = rgba(31, 37, 50, 0.8)
+foreground 	        = #eccfc3
 highlight  	        = #2f2f2f
-foreground_bold     = #E9B9C3
+foreground_bold     = #ffffff
 cursor              = #C33C54
 cursor_foreground   = #C33C54
 # Black, Gray, Silver, White
-color0  	        = #605167
-color8              = #605167
+color0  	        = #38414F
+color8              = #38414F
 color7              = #F6EFEE
 color15             = #F6EFEE
 # Red
-color1              = #FF7E6B
-color9              = #FF7E6B
+color1              = #DA667B
+color9              = #DA667B
 # Green
-color2              = #C2CFB2
-color10             = #C2CFB2
+color2              = #2FBF71
+color10             = #2FBF71
 # Yellow
-color3              = #FFCAAF
-color11             = #FFCAAF
+color3              = #F4D35E
+color11             = #F4D35E
 # Blue
-color4              = #B4B0D6
-color12             = #B4B0D6
+color4              = #2274A5
+color12             = #2274A5
 # Purple
-color5              = #A67DB8
-color13             = #A67DB8
+color5              = #6987C9
+color13             = #6987C9
 # Teal
-color6              = #799496
-color14             = #799496
+color6              = #6BBAEC
+color14             = #6BBAEC
 # Extra colors
 color16             = #C7C795
 color17             = #C79595
