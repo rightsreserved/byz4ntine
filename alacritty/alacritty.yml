@@ -3,46 +3,46 @@
 # Font configuration
   font:
     normal:
-      family: GT40 Mono
+      family: Mono
       style: Regular
     bold:
-      family: GT40 Mono
+      family: Mono
       style: Bold
     italic:
-      family: GT40 Mono
+      family: Mono
       style: Italic
     bold_italic:
-      family: GT40 Mono
+      family: Mono
       style: Bold Italic
     size: 8.5
 
   colors:
     primary:
-      background: '#272727'
-      foreground: '#eacad0'   
+      background: '#272730'
+      foreground: '#eccfc3'   
     cursor:
       text: '#809BCE'
       cursor: '#809BCE'
     normal:
-      black:   '#606060'
-      red:     '#f4a259'
-      green:   '#89a894'
-      yellow:  '#FFFF82'
-      blue:    '#c08497'
-      magenta: '#7b5e7b'
-      cyan:    '#56494C'
-      white:   '#eccfc3'
+      black:   '#38414f'
+      red:     '#da667b'
+      green:   '#2fbf71'
+      yellow:  '#f4d35e'
+      blue:    '#2274a5'
+      magenta: '#6987c9'
+      cyan:    '#6bbaec'
+      white:   '#f6efee'
     bright:
-      black:   '#606060'
-      red:     '#f4a259'
-      green:   '#89a894'
-      yellow:  '#FFFF82'
-      blue:    '#c08497'
-      magenta: '#7b5e7b'
-      cyan:    '#56494C'
-      white:   '#eccfc3'
+      black:   '#38414f'
+      red:     '#da667b'
+      green:   '#2fbf71'
+      yellow:  '#f4d35e'
+      blue:    '#2274a5'
+      magenta: '#6987c9'
+      cyan:    '#6bbaec'
+      white:   '#f6efee'
 
-  background_opacity: 1.0
+  background_opacity: 0.95
 
   cursor:
     style: Underline
