@@ -6,7 +6,7 @@ audible_bell = true
 bold_is_bright = true
 clickable_url = true
 # font size is set for a 4K screen
-font = Lotion 20
+font = Ubuntu Mono 22
 fullscreen = true
 
 scrollback_lines = 100000
@@ -16,36 +16,36 @@ cursor_blink = on
 cursor_shape = underline
 
 [colors]
-# background          = #292F36
-background          = rgba(31, 37, 50, 0.8)
+# background          = #282f3f
+background          = rgba(35, 35, 37, 0.85)
 foreground 	        = #eccfc3
 highlight  	        = #2f2f2f
 foreground_bold     = #ffffff
-cursor              = #C33C54
-cursor_foreground   = #C33C54
+cursor              = #a6676d
+cursor_foreground   = #a6676d
 # Black, Gray, Silver, White
-color0  	        = #38414F
-color8              = #38414F
-color7              = #F6EFEE
-color15             = #F6EFEE
+color0  	        = #475755
+color8              = #475755
+color7              = #b8c8e4
+color15             = #b8c8e4
 # Red
-color1              = #DA667B
-color9              = #DA667B
+color1              = #a6676d
+color9              = #a6676d
 # Green
-color2              = #2FBF71
-color10             = #2FBF71
+color2              = #a4a790
+color10             = #a4a790
 # Yellow
-color3              = #F4D35E
-color11             = #F4D35E
+color3              = #eabda8
+color11             = #eabda8
 # Blue
-color4              = #2274A5
-color12             = #2274A5
+color4              = #7ea1b0
+color12             = #7ea1b0
 # Purple
-color5              = #6987C9
-color13             = #6987C9
+color5              = #91709c
+color13             = #91709c
 # Teal
-color6              = #6BBAEC
-color14             = #6BBAEC
+color6              = #728896
+color14             = #728896
 # Extra colors
 color16             = #C7C795
 color17             = #C79595
