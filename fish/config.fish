@@ -1,4 +1,4 @@
-# byz4ntine fish config
+# faith fish config
 
 set fish_greeting
 
@@ -15,6 +15,8 @@ abbr upg "sudo pacman -Syu"
 abbr i "sudo pacman -Sy && sudo pacman -S"
 abbr sc "trizen -Ss"
 abbr key "sudo pacman-key --refresh-keys"
+abbr mca "java --module-path Documents/javaJFX/javafx-sdk-16/lib/ --add-modules ALL-MODULE-PATH -jar Downloads/mcaselector-1.16.3.jar
+"
 
 # config
 abbr config "micro ~/.config/i3/config"
@@ -30,16 +32,18 @@ abbr promptconf "micro ~/.config/starship.toml"
 
 # clear screen
 abbr a "clear && pfetch"
-abbr c "clear && fet.sh"
-abbr d "clear && cpufetch"
-abbr f "clear && figlet byz4ntine | rainbow"
-abbr s "clear && screenfetch"
-abbr x "clear && neofetch"
-abbr z "clear && aura"
+abbr s "clear && neofetch | lolcat"
+abbr d "clear && nekofetch"
+abbr f "clear && figlet faith | rainbow"
+abbr c "clear && neofetch | pridecat --trans"
+abbr x "clear && fet.sh"
+abbr z "clear && colorscript exec colorbars"
+abbr v "clear && neofetch | pridecat --trans --lesbian"
+abbr b "clear && colorscript exec colortest"
 
 # start up theming
-fet.sh
+neofetch | pridecat --trans
 
 # prompt
 
-starship init fish | source
+# starship init fish | source
