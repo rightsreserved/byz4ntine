@@ -1,4 +1,4 @@
-# faith fish config
+# elsatarian fish config
 
 set fish_greeting
 
