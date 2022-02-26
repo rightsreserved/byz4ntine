@@ -1,0 +1,7 @@
+picom &
+dunst &
+lxpanel &
+nitrogen --restore &
+xdman &
+blueman-applet &
+networkmanager &
