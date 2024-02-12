@@ -5,7 +5,7 @@ set $mod Mod4
 font pango:fantasque sans mono 10
 
 # xss-lock
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock-color --nofork
 
 # Wireless
 exec --no-startup-id nm-applet
@@ -21,16 +21,16 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 # Start-up Services
 exec_always systemctl enable --user dunst.service
 exec_always --no-startup-id dunst
-exec_always systemctl enable AdGuardHome.service
+# exec_always systemctl enable AdGuardHome.service
 exec_always --no-startup-id blueman-applet
 exec_always --no-startup-id xfce4-power-manager
-exec_always --no-startup-id picom --experimental-backends --config ~/.config/picom/picom.conf
+exec_always --no-startup-id picom --config ~/.config/picom.conf
 exec_always --no-startup-id nitrogen --restore
 
 # Appearance
 
-font xft:Space Age 11
-gaps inner 17
+font xft:Liberation Sans Regular 10
+gaps inner 10
 gaps outer 0
 new_window pixel 2
 new_float normal
@@ -46,27 +46,25 @@ bindsym $mod+o border normal
   client.urgent           #CB4B16 #FDF6E3 #D1DBED #268BD2
   client.placeholder      #000000 #0c0c0c #ffffff #000000 
 
-  client.background       #2B2C2B
+  client.background       #262626
 
 # Status Bar
-exec_always --no-startup-id ~/.config/polybar/launch.sh
+exec_always --no-startup-id lxpanel
 
 # set MyTerm
-set $myTerm termite
+set $myTerm alacritty
 
 # set AltTerm
-set $altTerm miniterm
-set $altTerm2 alacritty
+set $altTerm termite
 
 # start a terminal
 bindsym $mod+Return exec $myTerm
 bindsym $mod+Shift+Return exec $altTerm
-bindsym $mod+Ctrl+Return exec $altTerm2
 
 # terminal shortcuts
-bindsym $mod+n exec $myTerm -e 'ranger'
-bindsym $mod+Shift+n exec $myTerm -e 'ranger -h'
-bindsym $mod+Shift+h exec $myTerm -e 'ytop'
+bindsym $mod+n exec $myTerm -e 'nnn'
+bindsym $mod+Shift+n exec $myTerm -e 'nnn -h'
+bindsym $mod+Shift+h exec $myTerm -e 'htop'
 bindsym $mod+b exec $myTerm -e 'bashtop'
 
 # set myBrowser
@@ -85,7 +83,7 @@ set $myMail claws-mail
 bindsym $mod+Shift+c exec $myMail
 
 # take a screenshot
-bindsym $mod+Shift+o exec i3-scrot
+bindsym $mod+Shift+o exec scrot
 
 # lock screen
 bindsym $mod+0 exec blurlock
@@ -96,11 +94,14 @@ bindsym $mod+t exec pcmanfm
 # open text editor
 bindsym $mod+m exec mousepad
 
+# conky
+bindsym $mod+c exec conky-toggle
+
 # kill focused window
 bindsym $mod+Shift+q kill
 
 # start dmenu
-bindsym $mod+d exec "dmenu_run -nf '#4A5674' -nb '#282F3F' -sb '#282F3F' -sf '#D1DBED' -fn 'fantasque sans mono-14' -p 'dmenu%'"
+bindsym $mod+d exec "dmenu_run -nf '#008080' -nb '#262626' -sb '#008080' -sf '#262626' -fn 'LiberationMono:pixelsize=14' -p 'dmenu%'"
 
 # start rofi
 bindsym $mod+Shift+d exec rofi -show run
@@ -196,7 +197,7 @@ bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+r restart
 
 # bye
-bindsym $mod+Shift+e exec arcolinux-logout
+bindsym $mod+Shift+e exec archlinux-logout
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
