@@ -42,7 +42,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Kvantum</name>
+    <name>Arc</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -57,19 +57,19 @@
     <keepBorder>yes</keepBorder>
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
-      <name>Ubuntu</name>
+      <name>Liberation Sans</name>
       <size>10</size>
       <!-- font size in points -->
-      <weight>Bold</weight>
+      <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
       <slant>Normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
     <font place="InactiveWindow">
-      <name>Ubuntu</name>
+      <name>Liberation Sans</name>
       <size>10</size>
       <!-- font size in points -->
-      <weight>Bold</weight>
+      <weight>Normal</weight>
       <!-- 'bold' or 'normal' -->
       <slant>Normal</slant>
       <!-- 'italic' or 'normal' -->
@@ -349,7 +349,7 @@
           <enabled>true</enabled>
           <name>Browser</name>
         </startupnotify>
-        <command>vivaldi-stable</command>
+        <command>firefox</command>
       </action>
     </keybind>
     <keybind key="W-S-e">
@@ -358,7 +358,7 @@
           <enabled>true</enabled>
           <name>Logout</name>
         </startupnotify>
-        <command>arcolinux-logout</command>
+        <command>archlinux-logout</command>
       </action>
     </keybind>
   </keyboard>
